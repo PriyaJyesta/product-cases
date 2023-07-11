@@ -1,5 +1,7 @@
 Product Breakdown 
 
+Using this below breakdown elements for any product would help us to cover all aspects of the product.
+
 - Problem - What is the problem that product solves ?
 - Users - Who are the users using this product ?
 - Onboarding - What is the onboarding process ?
