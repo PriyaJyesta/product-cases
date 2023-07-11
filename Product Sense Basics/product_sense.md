@@ -12,6 +12,15 @@ graph TD;
     Product Modeling-->Product sense; 
     Experiments-->Product sense;
 ```
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 These are elements we need to consider for product sense .
 
 - Product Metrics - Defining KPIs for the given product. 
