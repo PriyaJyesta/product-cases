@@ -6,24 +6,16 @@ Once when we know that we can easliy solve the problem with various strategies.
 
 ```mermaid
 graph TD;
-    ProductMetrics-->Productsense;
-    MarketSize-->Productsense;
-    MetricsTradeOff-->Productsense; 
-    ProductModeling-->Productsense; 
-    Experiments-->Productsense;
-```
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    ProductMetrics-->ProductSense;
+    MarketSize-->ProductSense;
+    MetricsTradeOff-->ProductSense; 
+    ProductModeling-->ProductSense; 
+    Experiments-->ProductSense;
 ```
 
 These are elements we need to consider for product sense .
 
-- AProduct Metrics - Defining KPIs for the given product. 
+- Product Metrics - Defining KPIs for the given product. 
 - Market size - gage how many users are going to use the product before launching.
 - Metrics Trade Off - After launching - if one metric is gone up and other gone down, what kind of deicision we need to make for such trade off. 
 - Product Modeling - invloves ML Algo for better user experience like recommendation system.
