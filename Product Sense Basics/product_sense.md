@@ -4,16 +4,14 @@ Need to understand current user path in order to acheive and feel what a user is
 
 Once when we know that we can easliy solve the problem with various strategies. 
 
-```dot {engine="circo"}
-
-digraph G{
-    Product Metrics -> Product sense 
-    Market Size -> Product sense 
-    Metrics Trade Off -> Product sense 
-    Product Modeling  -> Product sense 
-    Experiments  -> Product sense 
-}
-
+```mermaid
+graph TD;
+    Product Metrics-->Product sense;
+    Market Size-->Product sense;
+    Metrics Trade Off-->Product sense; 
+    Product Modeling-->Product sense; 
+    Experiments-->Product sense;
+```
 These are elements we need to consider for product sense .
 
 - Product Metrics - Defining KPIs for the given product. 
